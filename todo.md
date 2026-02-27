@@ -1,0 +1,45 @@
+# Project TODO
+
+- [x] Database schema (products, variants, orders, order_items, support_tickets, ticket_messages)
+- [x] Product management backend (CRUD with variants)
+- [x] Shop frontend (product listing, search, filters)
+- [x] Cart system with localStorage
+- [x] Checkout process with address form
+- [x] Oxapay payment integration (invoice generation + callback handler)
+- [x] Admin dashboard (orders, products, packlist, tickets, settings)
+- [x] PDF packlist generator for paid_not_shipped orders
+- [x] Customer account area (order history, profile)
+- [x] Support ticket system (customer + admin)
+- [x] Product search with filters (price, category, availability)
+- [x] Image upload for products via S3
+- [x] Admin notifications for new orders and tickets (via notifyOwner)
+- [x] Dark theme styling matching original shop design
+- [x] Responsive design
+- [x] Vitest tests (24 tests passing)
+- [x] Deployment documentation for Linux VPS
+- [x] Analytics: Backend-Endpunkte für Verkaufsstatistiken (Umsatz-Zeitreihe, Top-Produkte, Bestellstatus)
+- [x] Analytics: Backend-Endpunkte für Kundenverhalten (Neukunden-Trend, Wiederkäufer, Durchschnittlicher Bestellwert)
+- [x] Analytics: Frontend-Dashboard mit Recharts-Diagrammen (Linien, Balken, Torte)
+- [x] Analytics: KPI-Karten (Gesamtumsatz, Bestellungen, Kunden, Durchschnittswert)
+- [x] Analytics: Integration in Admin-Dashboard als neuer Tab
+- [x] Analytics: Vitest-Tests für Analyse-Endpunkte
+- [x] Marketing: Datenbank-Tabellen für E-Mail-Kampagnen und Versand-Log
+- [x] Marketing: Kundensegmentierung (alle, Wiederkäufer, Neukunden, nach Bestellwert, nach Kategorie)
+- [x] Marketing: E-Mail-Versand über Notification-API mit Personalisierung
+- [x] Marketing: Frontend E-Mail-Editor mit Vorlagen und Platzhaltern
+- [x] Marketing: Kampagnen-Historie und Versand-Status
+- [x] Marketing: Integration als neuer Tab im Admin-Dashboard
+- [x] Marketing: Vitest-Tests für Segmentierung und Kampagnen-Endpunkte
+- [x] Shipping: Datenbank-Tabelle für Versandoptionen (Name, Preis, Lieferzeit, aktiv)
+- [x] Shipping: CRUD-Endpunkte für Versandoptionen im Admin
+- [x] Shipping: Frontend-UI unter Settings zum Verwalten der Versandoptionen
+- [x] Shipping: Integration in Checkout (Kunden wählen Versandoption)
+- [x] Shipping: Vitest-Tests für Versandoptionen-Endpunkte
+- [x] Coupons: Datenbank-Tabelle (Code, Typ percentage/fixed, Wert, Mindestbestellwert, Ablaufdatum, Nutzungslimit, aktiv)
+- [x] Coupons: Verwendungs-Log-Tabelle (couponId, orderId, userId, Zeitstempel)
+- [x] Coupons: Admin-CRUD-Endpunkte (erstellen, bearbeiten, löschen, auflisten)
+- [x] Coupons: Validierungs-Endpunkt (Code prüfen, Rabatt berechnen)
+- [x] Coupons: Einlösung bei Bestellerstellung (Rabatt anwenden, Nutzung tracken)
+- [x] Coupons: Admin-UI im Dashboard (Coupon-Verwaltung mit Tabelle und Dialog)
+- [x] Coupons: Checkout-Integration (Code-Eingabefeld, Live-Rabattberechnung)
+- [x] Coupons: Vitest-Tests für Validierung und Zugriffskontrolle
